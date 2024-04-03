@@ -1,7 +1,7 @@
 function shortcut(s1, s2) {
   // your code here
 	if (str1.isEmpty() || str2.isEmpty()) {
-        return "";
+        return "empty string";
     }
     char firstChar1 = str1.charAt(0);
     char firstChar2 = str2.charAt(0);	
