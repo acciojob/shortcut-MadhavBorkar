@@ -1,10 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
-	if (str1.isEmpty() || str2.isEmpty()) {
+	if (s1.isEmpty() || s2.isEmpty()) {
         return "empty string";
     }
-    char firstChar1 = str1.charAt(0);
-    char firstChar2 = str2.charAt(0);	
+    char firstChar1 = s1.charAt(0);
+    char firstChar2 = s2.charAt(0);	
     return String.valueOf(firstChar1) + String.valueOf(firstChar2);
 }
 
