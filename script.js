@@ -1,11 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
-	if (s1.isEmpty() || s2.isEmpty()) {
-        return "empty string";
+	if (!s1 || !s2) { 
+        return 'empty string';
     }
-    char firstChar1 = s1.charAt(0);
-    char firstChar2 = s2.charAt(0);	
-    return String.valueOf(firstChar1) + String.valueOf(firstChar2);
+    
+    return s1.charAt(0).toUpperCase() + s2.charAt(0).toLowerCase();  // Return the initial letters of both strings
 }
 
 // Do not change the code below.
