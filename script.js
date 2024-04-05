@@ -4,7 +4,7 @@ function shortcut(s1, s2) {
         return 'empty string';
     }
     
-    return s1.charAt(0).toUpperCase() + s2.charAt(0).toLowerCase();  // Return the initial letters of both strings
+    return s1.charAt(0).toLowerCase() + s2.charAt(0).toLowerCase();
 }
 
 // Do not change the code below.
